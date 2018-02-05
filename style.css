@@ -1,0 +1,162 @@
+body {
+
+  height: 1200px;
+}
+#background {
+  background-image: url(img/plan.jpg);
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-origin: content-box;
+  background-position: center;
+  width:100%;
+  height:100%;
+  top: 320px;
+  position: absolute;
+}
+#tip {
+  top:20px;
+  width: 120px;
+  height: 120px;
+  margin: 10px;
+  background-color: black;
+  animation: rotate 5s linear infinite alternate;
+  border-radius: 100%;
+  position:fixed;
+  opacity: 0.5;
+}
+#tip2 {
+  top:20px;
+  width: 70px;
+  height: 70px;
+  margin: 10px;
+  background-color: black;
+  animation: rotate 5s linear infinite alternate;
+  border-radius: 100%;
+  left:100px;
+  position:fixed;
+}
+#title {
+  width:100%;
+  margin:0 auto;
+}
+p {
+  font-family: 'Hammersmith One', sans-serif;
+  width:100%;
+  text-align: center;
+  font-size: 35px;
+  top:30px;
+  position: absolute;
+  text-transform: uppercase;
+}
+#container {
+  display: flex;
+  justify-content: center;
+}
+#drag1 {
+  width: 100px;
+  height: 70px;
+  top:150px;
+  margin-bottom: 20px;
+  flex:1;
+  cursor: move;
+
+
+}
+#drag2 {
+  width: 100px;
+  height: 70px;
+  top:150px;
+  margin-bottom: 30px;
+  flex:1;
+  cursor: move;
+
+}
+#drag3 {
+  width: 100px;
+  height: 70px;
+  top:150px;
+  margin-bottom: 20px;
+  flex:1;
+  cursor: move;
+}
+#drag4 {
+  width: 100px;
+  height: 70px;
+  top:150px;
+  margin-bottom: 20px;
+  flex:1;
+  cursor: move;
+}
+#drag5 {
+  width: 100px;
+  height: 70px;
+  top:150px;
+  margin-bottom: 20px;
+  flex:1;
+  cursor: move;
+}
+#drag6 {
+  width: 80px;
+  height: 70px;
+  top:150px;
+  margin-bottom: 20px;
+flex:1;
+  cursor: move;
+}
+#drag7 {
+  width: 100px;
+  height: 70px;
+  top:150px;
+  margin-bottom: 20px;
+  flex:1;
+  cursor: move;
+}
+#drag8 {
+  width: 100px;
+  height: 70px;
+  top:150px;
+  margin-bottom: 20px;
+  flex:1;
+  cursor: move;
+}
+#drag9 {
+  width: 100px;
+  height: 70px;
+  top:150px;
+  margin-bottom: 20px;
+  flex:1;
+  cursor: move;
+}
+#drag10 {
+  width: 100px;
+  height: 70px;
+  top:150px;
+  position: relative;
+  flex:1;
+  cursor: move;
+}
+
+h1 {
+  font-family: 'Helvetica', sans-serif;
+  width:95%;
+  text-align: center;
+  vertical-align: center;
+  font-size: 28px;
+  color:white;
+}
+h2 {
+  font-family: 'Helvetica', sans-serif;
+  width:95%;
+  text-align: center;
+  vertical-align: center;
+  font-size: 16px;
+  color:white;
+}
+@keyframes rotate{
+	0%{
+		transform: rotate(0deg);
+	}
+	100%{
+		transform: rotate(360deg);
+	}
+}

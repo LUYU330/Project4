@@ -1,0 +1,82 @@
+
+img {
+    position: fixed;
+    left: 600px;
+    top:100px;
+    width:auto;
+    height:400px;
+
+}
+#pc {
+  background-image: url(img/pc.png);
+  background-size: cover;
+  width: 500px;;
+  height: 500px;
+  top:200px;
+  cursor: move;
+  position:fixed;
+}
+#chair {
+  background-image: url(img/chair.png);
+  background-size: cover;
+  width: 350px;
+  height: 350px;
+  top:200px;
+  cursor: move;
+  position: fixed;
+}
+#shelf {
+  background-image: url(img/shelf.png);
+  background-size: cover;
+  width: 500px;;
+  height: 500px;
+  top:200px;
+  cursor: move;
+  position:fixed;
+}
+#tip {
+  top:20px;
+  width: 120px;
+  height: 120px;
+  margin: 10px;
+  background-color: black;
+  animation: rotate 5s linear infinite alternate;
+  border-radius: 100%;
+  position:fixed;
+  opacity: 0.5;
+}
+#tip2 {
+  top:20px;
+  width: 70px;
+  height: 70px;
+  margin: 10px;
+  background-color: black;
+  animation: rotate 5s linear infinite alternate;
+  border-radius: 100%;
+  left:100px;
+  position:fixed;
+}
+h1 {
+  font-family: 'Helvetica', sans-serif;
+  width:95%;
+  text-align: center;
+  vertical-align: center;
+  font-size: 25px;
+  color:white;
+}
+h2 {
+  font-family: 'Helvetica', sans-serif;
+  width:95%;
+  text-align: center;
+  vertical-align: center;
+  font-size: 12px;
+  color:white;
+}
+@keyframes rotate{
+	0%{
+		transform: rotate(0deg);
+	}
+	100%{
+		transform: rotate(360deg);
+	}
+}

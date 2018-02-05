@@ -1,0 +1,83 @@
+
+img {
+    position: fixed;
+    left: 600px;
+    top:100px;
+    width:auto;
+    height:400px;
+
+}
+
+#bed {
+  background-image: url(img/bed.png);
+  background-size: cover;
+  width: 600px;
+  height: 400px;
+  top:200px;
+  cursor: move;
+  position: fixed;
+}
+#guizi {
+  background-image: url(img/guizi.png);
+  background-size: cover;
+  width: 400px;
+  height: 400px;
+  top:200px;
+  cursor: move;
+  position: fixed;
+}
+#table {
+  background-image: url(img/table.png);
+  background-size: cover;
+  width: 400px;
+  height: 400px;
+  top:200px;
+  cursor: move;
+  position: fixed;
+}
+#tip {
+  top:20px;
+  width: 120px;
+  height: 120px;
+  margin: 10px;
+  background-color: black;
+  animation: rotate 5s linear infinite alternate;
+  border-radius: 100%;
+  position:fixed;
+  opacity: 0.5;
+}
+#tip2 {
+  top:20px;
+  width: 70px;
+  height: 70px;
+  margin: 10px;
+  background-color: black;
+  animation: rotate 5s linear infinite alternate;
+  border-radius: 100%;
+  left:100px;
+  position:fixed;
+}
+h1 {
+  font-family: 'Helvetica', sans-serif;
+  width:95%;
+  text-align: center;
+  vertical-align: center;
+  font-size: 25px;
+  color:white;
+}
+h2 {
+  font-family: 'Helvetica', sans-serif;
+  width:95%;
+  text-align: center;
+  vertical-align: center;
+  font-size: 12px;
+  color:white;
+}
+@keyframes rotate{
+	0%{
+		transform: rotate(0deg);
+	}
+	100%{
+		transform: rotate(360deg);
+	}
+}
